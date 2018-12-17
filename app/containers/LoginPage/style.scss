@@ -1,0 +1,27 @@
+@import "../../main";
+
+.login-page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, $blue 60%, $lightBlue 40%);
+  &>div {
+    padding-left: 45%;
+  }
+  &__form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    button {
+      margin-top: 30px;
+      padding: 14px 42px;
+    }
+  }
+  &__title {
+    padding-bottom: 20px;
+  }
+}
